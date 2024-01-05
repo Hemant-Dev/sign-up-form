@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Sign-Up</title>
+    <link rel="stylesheet" href="./style.css">
+    <script src="./script.js" defer></script>
+</head>
+<body>
+    <div class="image-container"></div>
+    <div class="form-container">
+        <h1>Sign up to this amazing opportunity to showcase your gaming skillz!!</h1>
+        <p>This could be the life changing moment for you, why not give it a try?</p>
+        <form action="">    
+            <div class="form-input-section">
+                <div class="col-1">
+                    <div class="form-row">
+                        <label for="first-name">First Name</label>
+                        <input type="text" id="first-name" name="firstName" required>
+                    </div>
+                    <div class="form-row">
+                        <label for="last-name">Last Name</label>
+                        <input type="text" id="last-name" name="lastName" required>
+                    </div>
+                    <div class="form-row">
+                        <label for="email">E-mail</label>
+                        <input type="email" id="email" name="usermail" required>
+                    </div>
+                </div>
+
+                <div class="col-2">
+                    <div class="form-row">
+                        <label for="phone-number">Phone Number</label>
+                        <input type="number" id="phone-number" name="userNumber" required>
+                    </div>
+                    <div class="form-row">
+                        <label for="user-password">Password</label>
+                        <input type="password" id="user-password" name="userPassword" required>
+                    </div>
+                    <div class="form-row">
+                        <label for="user-confirm-password">Confirm Password</label>
+                        <input type="password" id="user-confirm-password" name="userConfirmPassword" required>
+                    </div>
+                </div>
+
+            </div>
+            <div class="button">
+                <button type="submit">Create Account</button>
+                <p>Already have an account?<strong id="log-in">Log in</strong></p>
+            </div>
+            
+        </form>
+    </div>
+</body>
+</html>
